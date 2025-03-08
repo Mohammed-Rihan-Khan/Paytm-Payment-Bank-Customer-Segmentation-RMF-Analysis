@@ -144,3 +144,5 @@ jupyter notebook
 - Develop a predictive model to forecast customer movement between segments
 - Create an interactive dashboard for real-time monitoring of customer segments
 - Design and implement targeted marketing campaigns based on segment insights
+
+DataSet Link:- https://drive.google.com/file/d/1OGIR_cekj2N2D4dRx_eYRC_v-xVUQUc4/view?usp=sharing
