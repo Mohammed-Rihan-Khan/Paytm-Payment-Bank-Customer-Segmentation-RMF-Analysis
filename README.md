@@ -64,21 +64,78 @@ The project utilizes several advanced techniques:
 ## Results and Insights
 The analysis identified four distinct customer segments:
 
-### Cluster 0: At-Risk Customers
-- **Characteristics**: Moderate recency (56 days), low frequency (1 transaction), moderate spending (INR 158)
-- **Strategy**: Targeted re-engagement campaigns, personalized offers, and feedback collection
+### **Cluster 0: Low-Value, At-Risk Customers**
+**Recency:** 58 days (moderate)
 
-### Cluster 1: Promising Loyalists
-- **Characteristics**: Moderate recency (48 days), moderate frequency (2 transactions), high spending (INR 3111)
-- **Strategy**: Loyalty programs, personalized financial advice, and premium banking services
+**Frequency:** ~1 transaction (very low)
 
-### Cluster 2: Potential Loyalists
-- **Characteristics**: Moderate recency (58 days), low frequency (1 transaction), high spending (INR 2636)
-- **Strategy**: Targeted marketing campaigns, dedicated relationship managers, and premium service offerings
+**Monetary:** ₹67 (extremely low spending)
 
-### Cluster 3: New Customers
-- **Characteristics**: Very recent (0 days), moderate frequency (1 transaction), moderate spending (INR 2385)
-- **Strategy**: Personalized onboarding, educational resources, welcome incentives, and regular feedback collection
+#### **Interpretation:**
+Customers in this cluster are sporadic users who make very few transactions and spend the least amount. They are at risk of becoming inactive or completely disengaged from the banking services.
+
+#### **Strategy:**
+**📌 Reactivation Campaigns:** Provide special promotions, cashback, or rewards for transactions.
+
+**📌 Personalized Outreach:** Offer reminders, alerts, or targeted financial products to keep them engaged.
+
+**📌 Understanding Barriers:** Conduct surveys to analyze why these customers have low engagement.
+
+### **Cluster 1: High-Engagement Customers**
+**Recency:** 48 days (moderate)
+**Frequency:** ~2 transactions (moderate)
+**Monetary:** ₹1071 (high spending)
+#### **Interpretation:**
+This cluster consists of frequent users with high spending power, making them a valuable customer segment. These customers are actively using banking services and show strong potential for loyalty.
+
+#### **Strategy:**
+**📌 Exclusive Loyalty Programs:** Offer reward-based transactions, higher interest rates on savings, or exclusive investment opportunities.
+
+**📌 Personalized Banking Services:** Provide dedicated relationship managers or financial advisors.
+
+**📌 Cross-Selling Opportunities:** Introduce them to premium credit cards, loans, or wealth management services.
+
+### **Cluster 2: Wealthy But Infrequent Users**
+**Recency:** 66 days (moderate-high)
+**Frequency:** ~1 transaction (very low)
+**Monetary:** ₹719 (high spending)
+#### **Interpretation:**
+This segment consists of high-value customers who transact very infrequently. They may be using the bank for specific services but are not fully engaged.
+
+#### **Strategy:**
+**📌 Encourage More Frequent Transactions:** Offer benefits for repeated usage, such as transaction-based rewards.
+
+**📌 Highlight Additional Services:** Introduce them to investment options, savings plans, or financial advisory.
+
+**📌 Reduce Inactivity Risk:** Personalized follow-ups and special incentives for continued banking engagement.
+
+### **Cluster 3: Young & Growing Customers**
+**Recency:** 39 days (low, very recent transactions)
+**Frequency:** ~1 transaction (low-moderate)
+**Monetary:** ₹612 (moderate spending)
+#### **Interpretation:**
+This segment consists of recently active customers who are moderate spenders but have not yet reached high levels of engagement. They may include new customers or young professionals testing banking services.
+
+#### **Strategy:
+**📌 Onboarding Support:** Provide educational resources, app tutorials, and welcome offers.
+
+**📌 Incentives for More Usage:** Cashback on first deposits, discounts on digital transactions, or promotional interest rates.
+
+**📌 Personalized Customer Journey:** Offer targeted recommendations based on their banking behavior.
+
+###**📌 Conclusion**
+Applying K-Means clustering to Recency, Frequency, and Monetary (RFM) data has provided valuable insights into customer segmentation. The segmentation reveals four distinct customer types:
+
+**1️⃣ At-Risk Customers** – Require re-engagement to prevent churn.
+
+**2️⃣ High-Engagement Customers** – Need loyalty programs to maximize lifetime value.
+
+**3️⃣ Wealthy But Infrequent Users** – Need incentives for higher transaction frequency.
+
+**4️⃣ Growing Customers** – Require nurturing to develop long-term engagement.
+
+
+Strategically implementing personalized banking offers, proactive customer service, and targeted marketing campaigns will help maximize customer retention, satisfaction, and long-term profitability in the banking sector.
 
 ## Installation and Usage
 1. Clone the repository
