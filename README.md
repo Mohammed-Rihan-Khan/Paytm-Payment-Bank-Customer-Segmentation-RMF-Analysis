@@ -65,9 +65,9 @@ The project utilizes several advanced techniques:
 The analysis identified four distinct customer segments:
 
 ### **Cluster 0: Low-Value, At-Risk Customers**
--**Recency:** 58 days (moderate)
--**Frequency:** ~1 transaction (very low)
--**Monetary:** ₹67 (extremely low spending)
+-**Recency:** 58 days (moderate) 
+-**Frequency:** ~1 transaction (very low) 
+-**Monetary:** ₹67 (extremely low spending) 
 
 #### **Interpretation:**
 Customers in this cluster are sporadic users who make very few transactions and spend the least amount. They are at risk of becoming inactive or completely disengaged from the banking services.
